@@ -1,0 +1,17 @@
+
+.admin_left {
+	background: #2a2e40;
+	height: 1000px;
+	color:white;
+	padding-top: 15px;
+}
+
+.admin_right {
+	background-color: #1a2034;
+	height: 1000px;
+}
+.admin_right img {
+	width:100%;
+	height:350px;
+	display: block;
+}

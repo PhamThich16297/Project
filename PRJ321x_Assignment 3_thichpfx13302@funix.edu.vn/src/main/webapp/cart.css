@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+table{
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 50px auto 10px;
+}
+table td {
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+table th {
+	text-align: center;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+.table tr>td, 
+.table tr>th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+.cart_summary img {
+    max-width: 30%;
+}
+.cart_summary > thead, 
+.cart_summary > tfoot {
+    background: #f7f7f7;
+    font-size: 16px;
+}
+.cart_summary td.cart_product {
+    width: 30%;
+    padding: 15px;
+}
+
+
+.cart_summary td {
+	vertical-align: middle!important;
+    padding: 20px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+	outline: none !important;
+}
+
+.cart_summary .price {
+    text-align: right;
+}
+.cart_summary .qty {
+    text-align: center;
+    width: 100px;
+}
+.cart_summary .qty a:hover {
+    background: #ff3366;
+    color: #fff;
+}
+
+
+
+
+.cart_summary .qty a {
+    padding: 8px 10px 5px 10px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    width: auto;
+    margin-top: 5px;
+}
+.cart_summary .action {
+    text-align: center;
+}
+.cart_summary .action a {
+    background: url(https://i.imgur.com/wBgtljO.png) no-repeat center center;
+    font-size: 0;
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    line-height: 24px;
+}
+.cart_summary tfoot {
+    text-align: right;
+}
+.cart_navigation {
+    margin: 10px 10% 40px;
+    float: left;
+    width: 80%;
+}
+.cart_navigation a.prev-btn {
+    float: left;
+}
+.cart_navigation a {
+    padding: 10px 20px;
+    border: 1px solid #eaeaea;
+}
+.cart_navigation a.prev-btn:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f104";
+    padding-right: 15px;
+}
+.cart_navigation a.next-btn {
+    float: right;
+    background: #ff3366;
+    color: #fff;
+    border: 1px solid #ff3366;
+}
+.cart_navigation a:hover {
+    background: #ff3366;
+    color: #fff;
+}
